@@ -1,0 +1,992 @@
+{
+  "users": [
+    {
+      "id": "user-admin-001",
+      "userId": "Admin",
+      "role": "ADMIN",
+      "fullName": "Super Admin",
+      "mobile": "9876543210",
+      "whatsapp": "9876543210",
+      "email": "admin@vishalenterprises.com",
+      "status": "active",
+      "firstLogin": false,
+      "passwordChanged": true,
+      "pinConfigured": true,
+      "passwordHash": "d3b7d40c0ebb79db63a2d9c24541d8c20486a7c3a12f3ae6759a1d4709ae63348ac8c9a35593668c87dc2100cc3ce51547084b22b912050df09a94c6de9d1ec2",
+      "passwordSalt": "98fdbc1bbdab7cf31b8e285cdf15a2c4",
+      "pinHash": "7e1b89b03ad05024c9c1c2db4203d9a8fad02dce4e4b23aeef2b4a22a4a15f42",
+      "pinSalt": "f28bac10236448a174fc89ba457ae6ef",
+      "joiningDate": "2026-09-13",
+      "createdAt": "2026-09-13T06:59:40.738Z",
+      "updatedAt": "2026-09-13T07:00:15.497Z"
+    },
+    {
+      "id": "user-staff-001",
+      "userId": "VE-STAFF-001",
+      "role": "STAFF",
+      "fullName": "Rajesh Sharma",
+      "mobile": "9876543211",
+      "whatsapp": "9876543211",
+      "email": "rajesh@vishalenterprises.com",
+      "status": "active",
+      "firstLogin": false,
+      "passwordChanged": true,
+      "pinConfigured": true,
+      "passwordHash": "7b646642cfae949545b33106873e0bfcb7d2a745ee666920cc448a211071c22acf38ca4de069eb89c03f692e01f261c019ef82e38e52c57539c9659b264c464a",
+      "passwordSalt": "4ec2e4d6e9594179f38d27036352a1af",
+      "pinHash": null,
+      "pinSalt": null,
+      "department": "Sales",
+      "designation": "Sales Executive",
+      "joiningDate": "2026-09-13",
+      "permissions": {
+        "dataScope": "own",
+        "modules": {
+          "dashboard": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          },
+          "leads": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "customers": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "followups": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "sales": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "proposals": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "payments": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "projects": {
+            "view": true,
+            "add": false,
+            "edit": true,
+            "delete": false
+          },
+          "attendance": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "services": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          },
+          "packages": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          },
+          "renewals": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          },
+          "referrals": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "requests": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "complaints": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "kyc": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "notifications": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          }
+        }
+      },
+      "salary": {
+        "amount": 30000,
+        "type": "Fixed + Incentive"
+      },
+      "kycStatus": "approved",
+      "createdAt": "2026-09-13T08:39:53.561Z",
+      "updatedAt": "2026-09-13T08:39:53.561Z"
+    },
+    {
+      "id": "user-dsa-001",
+      "userId": "VE-DSA-001",
+      "role": "DSA",
+      "fullName": "Amit Kumar",
+      "businessName": "AK Digital Solutions",
+      "mobile": "9876543212",
+      "whatsapp": "9876543212",
+      "email": "amit@akdigitalsolutions.com",
+      "status": "active",
+      "firstLogin": false,
+      "passwordChanged": true,
+      "pinConfigured": true,
+      "passwordHash": "856d7fd62dfa098226fdfec655ef8b40e5a71e1e0c2344227da7f75e6fbd63b864ea60acfd7ff09d36b5b506af4bd73ffbd5cb29210057b0125973fe5d031d0b",
+      "passwordSalt": "5a9a583e268707f48266b91b969f2021",
+      "pinHash": null,
+      "pinSalt": null,
+      "joiningDate": "2026-09-13",
+      "permissions": {
+        "dataScope": "own",
+        "modules": {
+          "dashboard": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          },
+          "leads": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "proposals": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "sales": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "customers": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "services": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          },
+          "commission": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          },
+          "withdrawals": {
+            "view": true,
+            "add": true,
+            "edit": false,
+            "delete": false
+          },
+          "kyc": {
+            "view": true,
+            "add": true,
+            "edit": true,
+            "delete": false
+          },
+          "notifications": {
+            "view": true,
+            "add": false,
+            "edit": false,
+            "delete": false
+          }
+        },
+        "permittedServices": [
+          "srv-1",
+          "srv-2",
+          "srv-3",
+          "srv-4",
+          "srv-5",
+          "srv-6",
+          "srv-7",
+          "srv-8",
+          "srv-9",
+          "srv-10",
+          "srv-11",
+          "srv-12",
+          "srv-13",
+          "srv-14",
+          "srv-15"
+        ]
+      },
+      "commissionRate": 10,
+      "kycStatus": "approved",
+      "agreementAccepted": true,
+      "createdAt": "2026-09-13T08:39:53.606Z",
+      "updatedAt": "2026-09-13T08:39:53.606Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "7bd2abd74ea41999b3071a8d087ebcc375143686af1385a2f0ba553771d7e8ec",
+      "userId": "Admin",
+      "role": "ADMIN",
+      "createdAt": 1789282780803,
+      "expiresAt": 1789887580804
+    },
+    {
+      "token": "ab6e071b2dd455c6529610c9502c4f862cead85e5084324e6a9227c97238bace",
+      "userId": "Admin",
+      "role": "ADMIN",
+      "createdAt": 1789288231988,
+      "expiresAt": 1789893031988
+    }
+  ],
+  "leads": [],
+  "customers": [],
+  "followups": [],
+  "sales": [],
+  "proposals": [],
+  "payments": [],
+  "projects": [],
+  "services": [
+    {
+      "id": "srv-1",
+      "name": "Business Website",
+      "category": "CORE BUSINESS",
+      "description": "Professional multi-page website to establish brand credibility and attract clients online.",
+      "features": [
+        "Up to 10 Custom Pages",
+        "Mobile & Tablet Responsive",
+        "Contact & Lead Form",
+        "WhatsApp Live Chat Integration",
+        "Google Maps & Location Integration",
+        "Basic On-Page SEO Setup"
+      ],
+      "price": 9999,
+      "basePrice": 9999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "5-7 Days",
+      "deliveryDays": 7,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-2",
+      "name": "Landing Page",
+      "category": "MARKETING",
+      "description": "High-converting single page designed for ad campaigns, products, or marketing promos.",
+      "features": [
+        "Single High-Impact Converting Layout",
+        "Hero Call to Action & Lead Form",
+        "Fast Loading Speed Optimization",
+        "WhatsApp Direct Enquiry Button",
+        "Analytics & Pixel Setup Ready",
+        "100% Mobile Optimized"
+      ],
+      "price": 4999,
+      "basePrice": 4999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "2-3 Days",
+      "deliveryDays": 3,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-3",
+      "name": "E-commerce Website",
+      "category": "E-COMMERCE",
+      "description": "Complete online store with product catalog, shopping cart, and online payment gateways.",
+      "features": [
+        "Product Management & Categories",
+        "Shopping Cart & Checkout Flow",
+        "Razorpay / UPI Payment Gateway Integration",
+        "Order Confirmation via Email/SMS",
+        "Customer Accounts & Order History",
+        "Inventory & Coupon Management"
+      ],
+      "price": 19999,
+      "basePrice": 19999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "10-14 Days",
+      "deliveryDays": 14,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-4",
+      "name": "School/Institute Website",
+      "category": "EDUCATION",
+      "description": "Official web portal for schools, colleges, coaching institutes, and universities.",
+      "features": [
+        "Course Catalog & Fee Structure",
+        "Online Admission Enquiry Form",
+        "Student Notice Board & Circulars",
+        "Faculty & Infrastructure Gallery",
+        "Parent Enquiry & WhatsApp Desk",
+        "Result & Exam Announcement Banner"
+      ],
+      "price": 14999,
+      "basePrice": 14999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "7-10 Days",
+      "deliveryDays": 10,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-5",
+      "name": "Portfolio Website",
+      "category": "PERSONAL BRANDING",
+      "description": "Showcase your work, achievements, photo gallery, and resume with elegant aesthetics.",
+      "features": [
+        "Interactive Project Gallery",
+        "Downloadable CV / PDF Attachment",
+        "Custom Hero Section & About Me",
+        "Client Testimonials & Feedback",
+        "Social Media Connections",
+        "Fast Dark/Light Mode Styling"
+      ],
+      "price": 6999,
+      "basePrice": 6999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "3-5 Days",
+      "deliveryDays": 5,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-6",
+      "name": "Loan/Finance Website",
+      "category": "FINANCE & DSA",
+      "description": "Specialized portal for DSA, loan agencies, and financial services with EMI calculators.",
+      "features": [
+        "Interactive Loan EMI Calculator",
+        "CIBIL Score Redirection / Check Page",
+        "Loan Eligibility Check Form",
+        "Document Verification Guide",
+        "Direct Banking Partner Grid",
+        "DSA / Agent Partnership Form"
+      ],
+      "price": 12999,
+      "basePrice": 12999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "6-8 Days",
+      "deliveryDays": 8,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-7",
+      "name": "CRM Dashboard",
+      "category": "ENTERPRISE",
+      "description": "Streamlined customer relationship management dashboard to track leads and sales teams.",
+      "features": [
+        "Lead Status Pipeline (New, Contacted, Won, Lost)",
+        "Customer Records & Contact Logs",
+        "Role-based Access (Admin, Manager, Staff)",
+        "Sales Reports & Visual Analytics",
+        "Export Data to Excel / CSV",
+        "Follow-up Reminders & Notifications"
+      ],
+      "price": 24999,
+      "basePrice": 24999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "14-18 Days",
+      "deliveryDays": 18,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-8",
+      "name": "Custom Web Application",
+      "category": "CUSTOM ENGINEERING",
+      "description": "Bespoke web application tailored to your exact business workflow and data logic.",
+      "features": [
+        "Tailor-made Business Logic",
+        "Scalable Database & API Layer",
+        "User Authentication & Roles",
+        "Interactive Controls & Real-time Updates",
+        "Custom Reports & PDF Exports",
+        "Complete Source Code Ownership"
+      ],
+      "price": 29999,
+      "basePrice": 29999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "20-30 Days",
+      "deliveryDays": 30,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-9",
+      "name": "Admin Panel",
+      "category": "MANAGEMENT",
+      "description": "Centralized admin management dashboard to update site content, users, and settings.",
+      "features": [
+        "Secure Admin Password Login",
+        "Content & Banner Management",
+        "User / Customer List View",
+        "Status Updates & Activity Logs",
+        "Search & Filter Records",
+        "Mobile Friendly Admin Interface"
+      ],
+      "price": 11999,
+      "basePrice": 11999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "5-7 Days",
+      "deliveryDays": 7,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-10",
+      "name": "Database-Based Website",
+      "category": "DYNAMIC WEB",
+      "description": "Dynamic website backed by PostgreSQL or Firestore database for live data storage.",
+      "features": [
+        "Structured Database Schema",
+        "CRUD Operations (Create, Read, Update, Delete)",
+        "Search & Multi-filter Capabilities",
+        "High Speed Data Indexing",
+        "Automated Daily Backups",
+        "Secure User Authorization"
+      ],
+      "price": 15999,
+      "basePrice": 15999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "8-12 Days",
+      "deliveryDays": 12,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-11",
+      "name": "API Integration",
+      "category": "INTEGRATIONS",
+      "description": "Connect third-party APIs (Payment Gateway, WhatsApp, SMS, AI, Google Maps) to your app.",
+      "features": [
+        "WhatsApp API / Webhook Integration",
+        "SMS Gateway Setup (DLT Compliant)",
+        "Razorpay / PayTM / PhonePe Integration",
+        "Email Notification Services",
+        "Google Maps & Location APIs",
+        "Custom REST API Consumption"
+      ],
+      "price": 4999,
+      "basePrice": 4999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "2-4 Days",
+      "deliveryDays": 4,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-12",
+      "name": "Website Redesign",
+      "category": "REVAMP",
+      "description": "Modernize your old or outdated website into a fast, beautiful, high-converting portal.",
+      "features": [
+        "Modern Luxe UI/UX Overhaul",
+        "100% Mobile Responsive Layout",
+        "Speed Optimization & Code Clean up",
+        "Content Organization & Restructuring",
+        "Enhanced Lead Capture & CTAs",
+        "SEO Migration & Meta Tags"
+      ],
+      "price": 7999,
+      "basePrice": 7999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "4-6 Days",
+      "deliveryDays": 6,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-13",
+      "name": "Website Maintenance",
+      "category": "SUPPORT",
+      "description": "Regular security updates, bug fixes, content additions, and performance monitoring.",
+      "features": [
+        "Monthly Backup & Security Audits",
+        "Text & Image Content Updates",
+        "Uptime Monitoring & Speed Checks",
+        "Bug Fixes & Technical Troubleshooting",
+        "Domain & Hosting Renewal Tracking",
+        "Priority Developer Phone Support"
+      ],
+      "price": 2999,
+      "basePrice": 2999,
+      "discount": 0,
+      "duration": "Monthly",
+      "timeline": "Ongoing",
+      "deliveryDays": 30,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-14",
+      "name": "AI-Powered Website",
+      "category": "ARTIFICIAL INTELLIGENCE",
+      "description": "Integrate AI chatbots, automated content generators, or smart recommendation engines.",
+      "features": [
+        "Smart Customer Support AI Chatbot",
+        "AI Document Summarizer or Generator",
+        "Automated Customer Qualification",
+        "Gemini / OpenAI API Integration",
+        "Context-aware Business Responses",
+        "Smart Analytics Dashboard"
+      ],
+      "price": 21999,
+      "basePrice": 21999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "10-14 Days",
+      "deliveryDays": 14,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "srv-15",
+      "name": "Custom Website Development",
+      "category": "BESPOKE",
+      "description": "Complete end-to-end full-stack web project built strictly to your specific scope & budget.",
+      "features": [
+        "Full Technical Consultation & Scope",
+        "Bespoke UI/UX Design Prototypes",
+        "Full-Stack Architecture (Frontend + Backend)",
+        "Rigorous Security & Penetration Testing",
+        "Dedicated Developer Contact",
+        "Post-Launch Training & Documentation"
+      ],
+      "price": 24999,
+      "basePrice": 24999,
+      "discount": 0,
+      "duration": "Annual",
+      "timeline": "15-25 Days",
+      "deliveryDays": 25,
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg-1",
+      "packageId": "PKG-STARTER",
+      "name": "Starter Website",
+      "subtitle": "Ideal for Small & Local Businesses",
+      "serviceId": "srv-1",
+      "serviceName": "Business Website",
+      "suitableFor": [
+        "Small businesses",
+        "Personal websites",
+        "Local shops & services"
+      ],
+      "features": [
+        "Responsive mobile-friendly design",
+        "Up to 5 Custom Pages",
+        "Interactive Contact Form",
+        "WhatsApp Direct Chat Button",
+        "Basic On-Page SEO Setup",
+        "Fast Loading Speed"
+      ],
+      "price": 5000,
+      "discount": 0,
+      "finalPrice": 5000,
+      "pagesIncluded": 5,
+      "hostingIncluded": "1 Year Free SSL & Fast SSD Hosting",
+      "supportDuration": "1 Year Technical Support",
+      "paymentTerms": "50% Advance, 50% on Delivery",
+      "deliveryTime": "3-5 Days",
+      "renewalPrice": 2499,
+      "maintenanceTerms": "Annual Domain & Hosting Renewal with SSL",
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "pkg-2",
+      "packageId": "PKG-BUSINESS",
+      "name": "Business Website",
+      "subtitle": "Best Value for Growing Companies",
+      "badge": "★ MOST POPULAR",
+      "serviceId": "srv-1",
+      "serviceName": "Business Website",
+      "suitableFor": [
+        "Growing enterprises",
+        "Finance & Agencies",
+        "Schools & Institutes"
+      ],
+      "features": [
+        "Up to 10 Custom Pages",
+        "Professional Luxury UI/UX",
+        "Contact & Lead Capture Forms",
+        "WhatsApp Live Chat Integration",
+        "Basic On-Page SEO & Meta Tags",
+        "Admin functionality where required",
+        "Database integration if required"
+      ],
+      "price": 10000,
+      "discount": 0,
+      "finalPrice": 10000,
+      "pagesIncluded": 10,
+      "hostingIncluded": "1 Year High-Speed Cloud SSD Hosting",
+      "supportDuration": "1 Year Priority Support & Content Updates",
+      "paymentTerms": "50% Advance, 50% on Delivery",
+      "deliveryTime": "5-7 Days",
+      "renewalPrice": 3499,
+      "maintenanceTerms": "Annual Hosting, Domain, SSL & Security Patches",
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "pkg-3",
+      "packageId": "PKG-PROFESSIONAL",
+      "name": "Professional Website",
+      "subtitle": "Complete Web Portal with Admin Control",
+      "serviceId": "srv-3",
+      "serviceName": "E-commerce Website",
+      "suitableFor": [
+        "Established Businesses",
+        "E-commerce Stores",
+        "Service Portals"
+      ],
+      "features": [
+        "Custom High-End Design",
+        "Advanced Multi-Page Layouts",
+        "Full Admin Management Panel",
+        "Database Integration (PostgreSQL/Firestore)",
+        "User Login & Auth System",
+        "API Integration (Payment/SMS/Email)",
+        "Advanced Functionality & Security"
+      ],
+      "price": 20000,
+      "discount": 0,
+      "finalPrice": 20000,
+      "pagesIncluded": 20,
+      "hostingIncluded": "Dedicated High-Performance Cloud VPS",
+      "supportDuration": "1 Year Full Maintenance & Bug Fixes",
+      "paymentTerms": "50% Advance, 50% on Delivery",
+      "deliveryTime": "10-14 Days",
+      "renewalPrice": 4999,
+      "maintenanceTerms": "Annual Cloud Infrastructure & Technical Support",
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    },
+    {
+      "id": "pkg-4",
+      "packageId": "PKG-CUSTOM-APP",
+      "name": "Custom Web Application",
+      "subtitle": "Bespoke Full-Stack Web Platform",
+      "serviceId": "srv-8",
+      "serviceName": "Custom Web Application",
+      "suitableFor": [
+        "SaaS platforms",
+        "Custom CRMs",
+        "Enterprise Workflows"
+      ],
+      "features": [
+        "Tailored Custom Requirements",
+        "User Authentication & Security",
+        "Comprehensive Admin Dashboard",
+        "Scalable Database System",
+        "Role-Based Access Control",
+        "API Integrations & Payment Gateways",
+        "Reports & Analytics Modules"
+      ],
+      "price": 30000,
+      "discount": 0,
+      "finalPrice": 30000,
+      "pagesIncluded": 30,
+      "hostingIncluded": "Enterprise Cloud Cluster with CDN",
+      "supportDuration": "Dedicated Developer Support & SLA",
+      "paymentTerms": "40% Advance, 30% Milestone, 30% Delivery",
+      "deliveryTime": "20-30 Days",
+      "renewalPrice": 7999,
+      "maintenanceTerms": "Annual Enterprise SLA, DevOps & Security Monitoring",
+      "status": "active",
+      "active": true,
+      "createdAt": "2026-09-13T08:39:53.511Z"
+    }
+  ],
+  "attendance": [],
+  "staffKyc": [],
+  "dsaKyc": [],
+  "dsaAgreements": [],
+  "withdrawals": [],
+  "targets": [],
+  "renewals": [],
+  "staffReferrals": [],
+  "requests": [],
+  "complaints": [],
+  "auditLogs": [
+    {
+      "id": "log-1789288728979-6485",
+      "logId": "LOG-20260913-6485",
+      "userId": "Admin",
+      "userName": "Super Admin",
+      "role": "ADMIN",
+      "action": "LOGIN_FAILED",
+      "module": "auth",
+      "date": "2026-09-13",
+      "exactTime": "08:38:48",
+      "reason": "Invalid Password",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-09-13T08:38:48.979Z"
+    },
+    {
+      "id": "log-1789288661893-9542",
+      "logId": "LOG-20260913-9542",
+      "userId": "Admin",
+      "role": "ADMIN",
+      "action": "SETTINGS_UPDATED",
+      "module": "settings",
+      "date": "2026-09-13",
+      "exactTime": "08:37:41",
+      "ip": "2401:4900:d145:71eb:75ee:fdeb:6733:fcda, 169.254.169.126",
+      "createdAt": "2026-09-13T08:37:41.893Z"
+    },
+    {
+      "id": "log-1789288231989-8862",
+      "logId": "LOG-20260913-8862",
+      "userId": "Admin",
+      "userName": "Super Admin",
+      "role": "ADMIN",
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "date": "2026-09-13",
+      "exactTime": "08:30:31",
+      "reason": "Authenticated via PIN",
+      "ip": "2401:4900:d145:71eb:75ee:fdeb:6733:fcda, 169.254.169.126",
+      "createdAt": "2026-09-13T08:30:31.989Z"
+    },
+    {
+      "id": "log-1789288211743-7981",
+      "logId": "LOG-20260913-7981",
+      "userId": "Admin",
+      "userName": "Super Admin",
+      "role": "ADMIN",
+      "action": "LOGIN_FAILED",
+      "module": "auth",
+      "date": "2026-09-13",
+      "exactTime": "08:30:11",
+      "reason": "Invalid Password",
+      "ip": "2401:4900:d145:71eb:75ee:fdeb:6733:fcda, 169.254.169.126",
+      "createdAt": "2026-09-13T08:30:11.743Z"
+    },
+    {
+      "id": "log-1789288188724-9470",
+      "logId": "LOG-20260913-9470",
+      "userId": "Admin",
+      "userName": "Super Admin",
+      "role": "ADMIN",
+      "action": "LOGIN_FAILED",
+      "module": "auth",
+      "date": "2026-09-13",
+      "exactTime": "08:29:48",
+      "reason": "Invalid Password",
+      "ip": "2401:4900:d145:71eb:75ee:fdeb:6733:fcda, 169.254.169.126",
+      "createdAt": "2026-09-13T08:29:48.724Z"
+    },
+    {
+      "id": "log-1789282815497-8292",
+      "logId": "LOG-20260913-8292",
+      "userId": "Admin",
+      "userName": "Super Admin",
+      "role": "ADMIN",
+      "action": "FIRST_LOGIN_CONFIGURED",
+      "module": "auth",
+      "date": "2026-09-13",
+      "exactTime": "07:00:15",
+      "reason": "New password and security PIN successfully configured",
+      "ip": "223.191.64.190, 169.254.169.126",
+      "createdAt": "2026-09-13T07:00:15.497Z"
+    },
+    {
+      "id": "log-1789282780804-4565",
+      "logId": "LOG-20260913-4565",
+      "userId": "Admin",
+      "userName": "Super Admin",
+      "role": "ADMIN",
+      "action": "LOGIN_SUCCESS",
+      "module": "auth",
+      "date": "2026-09-13",
+      "exactTime": "06:59:40",
+      "reason": "Authenticated via Password",
+      "ip": "223.191.64.190, 169.254.169.126",
+      "createdAt": "2026-09-13T06:59:40.804Z"
+    },
+    {
+      "id": "log-init-01",
+      "logId": "LOG-INIT-001",
+      "userId": "SYSTEM",
+      "userName": "System Setup",
+      "role": "ADMIN",
+      "action": "SYSTEM_INITIALIZATION",
+      "module": "system",
+      "date": "2026-09-13",
+      "exactTime": "06:59:40",
+      "reason": "Vishal Enterprises Website Sales CRM Initialized",
+      "createdAt": "2026-09-13T06:59:40.738Z"
+    }
+  ],
+  "notifications": [],
+  "failedLoginAttempts": {
+    "Admin-127.0.0.1": {
+      "count": 1,
+      "lockedUntil": 0
+    }
+  },
+  "commissions": [],
+  "settings": {
+    "companyProfile": {
+      "companyName": "Vishal Enterprises",
+      "brandTitle": "Vishal Enterprises CRM",
+      "tagline": "Premium Website Design, Custom Development & Web Solutions",
+      "email": "contact@vishalenterprises.com",
+      "phone": "+91 98765 43210",
+      "alternatePhone": "+91 98765 43210",
+      "address": "Suite 402, Vishal Commercial Complex, Station Road",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pinCode": "400001",
+      "gstin": "27AABCV1234F1Z5",
+      "websiteUrl": "https://vishalenterprises.com"
+    },
+    "crmConfig": {
+      "defaultLeadPriority": "Medium",
+      "defaultValidityDays": 15,
+      "dsaCommissionRate": 10,
+      "withdrawalAllowedDays": [
+        7,
+        14
+      ],
+      "allowDuplicateLeads": false,
+      "requireKycForWithdrawal": true,
+      "requireVerifiedBankForWithdrawal": true
+    },
+    "companyName": "Vishal Enterprises",
+    "companyTagline": "Premium Website Design, Custom Development & Web Solutions",
+    "supportEmail": "contact@vishalenterprises.com",
+    "supportPhone": "+91 98765 43210",
+    "whatsappNumber": "+91 98765 43210",
+    "websiteUrl": "https://vishalenterprises.com",
+    "registeredAddress": "Suite 402, Vishal Commercial Complex, Station Road",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pinCode": "400001",
+    "gstin": "27AABCV1234F1Z5",
+    "proposalValidityDays": 15,
+    "defaultFollowupDays": 3,
+    "dsaCommissionPercentage": 10,
+    "dsaWithdrawalDates": [
+      7,
+      14
+    ],
+    "paymentTermsPresets": [
+      "50% Advance upon initiation, 50% on Final Website Delivery & Domain Pointing",
+      "40% Advance, 40% on Beta Design Approval, 20% on Final Delivery",
+      "100% Full Advance Payment (5% Instant Settlement Discount Included)",
+      "30% Advance, 40% Development Milestone, 30% Delivery & Handover"
+    ],
+    "paymentTermsList": [
+      "50% Advance upon initiation, 50% on Final Website Delivery & Domain Pointing",
+      "40% Advance, 40% on Beta Design Approval, 20% on Final Delivery",
+      "100% Full Advance Payment (5% Instant Settlement Discount Included)",
+      "30% Advance, 40% Development Milestone, 30% Delivery & Handover"
+    ],
+    "leadSources": [
+      "Google Maps",
+      "Website",
+      "WhatsApp",
+      "Facebook",
+      "Instagram",
+      "LinkedIn",
+      "Referral",
+      "Existing Customer",
+      "Direct Call",
+      "Walk-in",
+      "Other"
+    ],
+    "businessCategories": [
+      "Salon & Beauty",
+      "Coaching & Education",
+      "Restaurant & Cafe",
+      "Retail & Supermarket",
+      "Hospital & Clinic",
+      "Diagnostic Lab",
+      "CSC & Online Center",
+      "Agency & Consultant",
+      "Professional Services",
+      "E-commerce Store",
+      "Manufacturing & Industrial",
+      "Finance & DSA Services",
+      "Real Estate & Construction",
+      "Other"
+    ]
+  }
+}

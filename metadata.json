@@ -1,0 +1,10 @@
+{
+  "name": "Vishal Enterprises CRM",
+  "description": "Website Sales \u0026 Web Services CRM for Vishal Enterprises with Admin, Staff, and DSA management.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
